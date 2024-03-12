@@ -1,22 +1,21 @@
-// Import the functions you need from the SDKs you need
+/// Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";
-
 // TODO: Add SDKs for Firebase products that you want to use
 // https://firebase.google.com/docs/web/setup#available-libraries
-
+import { getAuth } from "firebase/auth";
 // Your web app's Firebase configuration
-// For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-  apiKey: "AIzaSyBeBvQC6qiIiXoHfZceo9J5TFcPFo9nn9Y",
-  authDomain: "gogrocers-2024.firebaseapp.com",
-  projectId: "gogrocers-2024",
-  storageBucket: "gogrocers-2024.appspot.com",
-  messagingSenderId: "63256488612",
-  appId: "1:63256488612:web:3dd95ca4c8e24fd26a9431",
-  measurementId: "G-M84SBN7DJZ"
+  apiKey: "AIzaSyC7rul9AxNn7p9sbMwyJHLshXvSWEw3HLc",
+  authDomain: "gogrocers-9552c-84429.firebaseapp.com",
+  projectId: "gogrocers-9552c",
+  storageBucket: "gogrocers-9552c.appspot.com",
+  messagingSenderId: "157448340415",
+  appId: "1:157448340415:web:56bf8b6a2a3f74c4d6570a"
 };
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
+const auth = getAuth(app); // Initialize Firebase Authentication
+export { app,auth };
 
-export { app };
+

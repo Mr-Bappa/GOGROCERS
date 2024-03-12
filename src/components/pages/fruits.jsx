@@ -101,12 +101,12 @@ function Fruits() {
             paddingRight: "50px",
           }}
         >
-          © Copyright 2023 GoGrocers || Created by{" "}
+           © Copyright 2024 GoGrocers || Created by{" "}
           <a
-            href="https://github.com/VAbhijith2003github?tab=repositories"
+            href="https://github.com/Mr-Bappa"
             style={{ color: "palevioletred" }}
           >
-            Abhijith
+            Bappa
           </a>
         </p>
       </div>
